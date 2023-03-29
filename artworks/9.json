@@ -1,0 +1,34 @@
+{
+  "id": "c3399746e51359031f9980d8aabbb53b800bad9c",
+  "name": "#9",
+  "description": "Open Punks",
+  "image": "ipfs://QmWaYvbdhj8GunBUwnn9hF7oZytrmUqy7inkj3aQHaXqKe/9.png",
+  "edition": 9,
+  "date": 1679836164009,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 6"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Pony Tails"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Black Eyes"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Frown"
+    }
+  ]
+}

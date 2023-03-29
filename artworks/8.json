@@ -1,0 +1,34 @@
+{
+  "id": "609b6955d4aeed268ac8397e2c0f4ef12df7e610",
+  "name": "#8",
+  "description": "Open Punks",
+  "image": "ipfs://QmWaYvbdhj8GunBUwnn9hF7oZytrmUqy7inkj3aQHaXqKe/8.png",
+  "edition": 8,
+  "date": 1679836163493,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 6"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Purple Sunglasses"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    }
+  ]
+}

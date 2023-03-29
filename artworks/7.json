@@ -1,0 +1,34 @@
+{
+  "id": "9e39a2f439a40fae66e322fac2d01a0795765353",
+  "name": "#7",
+  "description": "Open Punks",
+  "image": "ipfs://QmWaYvbdhj8GunBUwnn9hF7oZytrmUqy7inkj3aQHaXqKe/7.png",
+  "edition": 7,
+  "date": 1679836163050,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 2"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Purple Cap"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Eye Patch"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile"
+    }
+  ]
+}

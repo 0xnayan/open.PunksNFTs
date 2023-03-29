@@ -1,0 +1,34 @@
+{
+  "id": "41ccb9d0a5ab2d2f7d5d151b6e7fc3998ead17f0",
+  "name": "#4",
+  "description": "Open Punks",
+  "image": "ipfs://QmWaYvbdhj8GunBUwnn9hF7oZytrmUqy7inkj3aQHaXqKe/4.png",
+  "edition": 4,
+  "date": 1679836161495,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 1"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Head Band"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Thug Glasses"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    }
+  ]
+}
