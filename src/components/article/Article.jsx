@@ -19,7 +19,7 @@ const Article = ({ artworks }) =>  {
   }, [artworks, end])
 
   return (
-    <div className="bg-[#000000] py-10" id='artworks'>
+    <div className="bg-[#000000] py-4" id='artworks'>
       <div className="w-4/5 mx-auto">
         <h4 className="gradient__text uppercase text-2xl">Already minted artworks</h4>
 
