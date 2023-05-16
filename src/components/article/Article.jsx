@@ -1,7 +1,10 @@
-import ethlogo from '../assets/ethlogo.png'
+import React from 'react'
+import "./article.css"
 import { useEffect, useState } from 'react'
+import ethlogo from '../../assets/ethlogo.png'
 
-const Artworks = ({ artworks }) => {
+// Parameter Destructuring
+const Article = ({ artworks }) =>  {
   const [end, setEnd] = useState(4)
   const [count] = useState(4)
 
@@ -16,9 +19,9 @@ const Artworks = ({ artworks }) => {
   }, [artworks, end])
 
   return (
-    <div className="bg-[#131835] py-10">
+    <div className="bg-[#000000] py-10" id='artworks'>
       <div className="w-4/5 mx-auto">
-        <h4 className="text-gradient uppercase text-2xl">Artworks</h4>
+        <h4 className="gradient__text uppercase text-2xl">Already minted artworks</h4>
 
         <div className="flex flex-wrap justify-center items-center mt-4">
           {nfts.map((nft, i) => (
@@ -37,7 +40,7 @@ const Artworks = ({ artworks }) => {
                   flex flex-row justify-between items-center
                   label-gradient p-2 w-full text-white text-sm"
               >
-                <p>{`0xnayan NFT #${nft.id}`}</p>
+                <p>{`open.Punks #${nft.id}`}</p>
                 <div className="flex justify-center items-center space-x-2">
                   <img
                     className="w-5 cursor-pointer"
@@ -68,4 +71,4 @@ const Artworks = ({ artworks }) => {
   )
 }
 
-export default Artworks
+export default Article;

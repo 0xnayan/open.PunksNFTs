@@ -1,4 +1,6 @@
-import { useGlobalState } from '../store'
+import { useGlobalState } from '../../store'
+import "./article.css"
+
 
 const Loading = () => {
   const [loading] = useGlobalState('loading')

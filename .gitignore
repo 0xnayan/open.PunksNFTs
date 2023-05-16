@@ -24,6 +24,7 @@ yarn-error.log*
 
 node_modules
 .env
+dist
 coverage
 coverage.json
 typechain

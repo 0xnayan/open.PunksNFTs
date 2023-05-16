@@ -2,9 +2,9 @@ const { ethers } = require('hardhat')
 const fs = require('fs')
 
 async function main() {
-  const base_uri = 'https://ipfs.io/ipfs/QmTWbe9wDns7aqZQNCuWh5PqybGbBF91kngC5Zf8qmCoyg/'
-  const Contract = await ethers.getContractFactory('Adulam')
-  const contract = await Contract.deploy('Adulam NFT', 'ADM', base_uri)
+  const base_uri = 'https://ipfs.io/ipfs/QmWtH4CKoa4FdTePVtFJtBwjz542CwQgrsTMrGNpF9hKLJ/'
+  const Contract = await ethers.getContractFactory('Oxnayan')
+  const contract = await Contract.deploy('Oxnayan NFT', '0xN', base_uri)
 
   await contract.deployed()
 

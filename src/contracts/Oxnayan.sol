@@ -10,7 +10,7 @@ contract Oxnayan is ERC721Enumerable, Ownable {
     string baseURI;
     string public baseExtension = ".json";
     string public baseImage = ".png";
-    uint256 public cost = 0.000000001 ether;
+    uint256 public cost = 0.001 ether;
     uint256 public maxSupply = 10;
     bool public paused = false;
 
