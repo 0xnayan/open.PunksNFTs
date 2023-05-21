@@ -31,7 +31,7 @@
 ## About The Project
 
   <p align="center">
-   Welcome to my NFT minting website! This platform allows you to mint your own non-fungible tokens on the Ethereum blockchain.
+   Welcome to my NFT minting website! This platform allows you to mint your own non-fungible tokens on the Ethereum blockchain(currently Goerli is working).
     <br />
     <br />
     <div align="center">
