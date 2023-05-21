@@ -39,7 +39,7 @@
     </a>
     <br/>
     <br/>
-    <a href="https://empty-block-7527.on.fleek.co/">View Demo</a>
+    <a href="https://jolly-star-6138.on.fleek.co/">View Demo</a>
     ·
     <a href="https://github.com/0xnayan/mint-nfts/issues">Report Bug</a>
    
