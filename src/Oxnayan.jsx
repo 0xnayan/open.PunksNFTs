@@ -38,7 +38,7 @@ const isWallectConnected = async () => {
     if (accounts.length) {
       setGlobalState('connectedAccount', accounts[0])
     } else {
-      alert('Please connect metamask and switch network to GEORLI TESTNET (Currently MINTING can be done in Georli testnet only).')
+      alert('Please connect metamask and switch to GEORLI TESTNET (Currently MINTING can be done in Georli testnet only).')
       console.log('No accounts found.')
     }
   } catch (error) {
