@@ -23,7 +23,7 @@ const getEtheriumContract = () => {
 
 const isWallectConnected = async () => {
   try {
-    if (!ethereum) return alert('Please install Metamask')
+    if (!ethereum) return alert('Please install Metamask and connect to the Georli testnets')
     const accounts = await ethereum.request({ method: 'eth_accounts' })
 
     window.ethereum.on('chainChanged', (chainId) => {
@@ -48,7 +48,7 @@ const isWallectConnected = async () => {
 
 const connectWallet = async () => {
   try {
-    if (!ethereum) return alert('Please install Metamask')
+    if (!ethereum) return alert('Please install Metamask and connect to the Georli testnets')
     const accounts = await ethereum.request({ method: 'eth_requestAccounts' })
     setGlobalState('connectedAccount', accounts[0])
   } catch (error) {
@@ -58,7 +58,7 @@ const connectWallet = async () => {
 
 const payToMint = async () => {
   try {
-    if (!ethereum) return alert('Please install Metamask')
+    if (!ethereum) return alert('Please install Metamask and connect to the Georli testnets')
     const connectedAccount = getGlobalState('connectedAccount')
     const contract = getEtheriumContract()
     const amount = ethers.utils.parseEther('0.001')
@@ -76,7 +76,7 @@ const payToMint = async () => {
 
 const loadNfts = async () => {
   try {
-    if (!ethereum) return alert('Please install Metamask')
+    if (!ethereum) return alert('Please install Metamask and connect to the Georli testnets')
 
     const contract = getEtheriumContract()
     const nfts = await contract.getAllNFTs()
