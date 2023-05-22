@@ -25,7 +25,7 @@
 </details>
 
 ## View website
-  - https://empty-block-7527.on.fleek.co/
+  - https://jolly-star-6138.on.fleek.co/
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
