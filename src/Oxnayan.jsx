@@ -38,7 +38,7 @@ const isWallectConnected = async () => {
     if (accounts.length) {
       setGlobalState('connectedAccount', accounts[0])
     } else {
-      alert('Please install Metamask and connect to the Georli testnets.')
+      alert('Please connect to the Georli testnets.')
       console.log('No accounts found.')
     }
   } catch (error) {
