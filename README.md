@@ -25,7 +25,7 @@
 </details>
 
 ## View website
-  - https://jolly-star-6138.on.fleek.co/
+  - https://cold-band-0660.on.fleek.co/
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -39,7 +39,7 @@
     </a>
     <br/>
     <br/>
-    <a href="https://jolly-star-6138.on.fleek.co/">View Demo</a>
+    <a href="https://cold-band-0660.on.fleek.co/">View Demo</a>
     ·
     <a href="https://github.com/0xnayan/mint-nfts/issues">Report Bug</a>
    
